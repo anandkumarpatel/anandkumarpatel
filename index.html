@@ -5,26 +5,33 @@
 
   <body>
     <div class="main">
-      <md-content class="md-padding secondBox">
-        <md-whiteframe class="md-whiteframe-z5" layout="" layout-align="center center">
-          <span>Comming Soon</span>
+      <md-content class="md-padding box">
+        <md-whiteframe class="md-whiteframe-z1" layout="" layout-align="center center">
+          <span class="message h2 header-thin" >Comming Soon</span>
         </md-whiteframe>
       </md-content>
     </div>
 
 
     <style>
-      .secondBox md-whiteframe {
+      .box md-whiteframe {
         background: #fff;
-        margin: 3%;
-        padding: 5%;
-        font-size: 300%;
+        padding: 2%;
       }
-
+      .message {
+        font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+        font-size: 33px;
+        color: #5b3777;
+        font-weight: 300;
+      }
       .main {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+      }
+
+      body {
+       background: rgba(133, 60, 190, 0.15);
       }
     </style>
   </body>
