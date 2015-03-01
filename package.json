@@ -1,0 +1,24 @@
+{
+  "name": "anandkumarpatel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anandkumarpatel/anandkumarpatel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandkumarpatel/anandkumarpatel/issues"
+  },
+  "homepage": "https://github.com/anandkumarpatel/anandkumarpatel"
+}
