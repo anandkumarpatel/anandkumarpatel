@@ -7,7 +7,7 @@
     <div class="main">
       <md-content class="md-padding box">
         <md-whiteframe class="md-whiteframe-z1" layout="" layout-align="center center">
-          <span class="message h2 header-thin" >Coming Soon</span>
+          <span class="message h2 header-thin" >Coming Soon <a disabled class="disabled" href="http://hiddengame.anandkumarpatel.com">?</a></span>
         </md-whiteframe>
       </md-content>
     </div>
@@ -29,7 +29,10 @@
         top: 50%;
         transform: translateY(-50%);
       }
-
+      .disabled {
+        pointer-events: none;
+        text-decoration: underline;
+      }
       body {
        background: rgba(133, 60, 190, 0.15);
       }
